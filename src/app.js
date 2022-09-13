@@ -5,6 +5,7 @@
 
 import { SharedMap } from "fluid-framework";
 import { TinyliciousClient } from "@fluidframework/tinylicious-client";
+import { AzureClient, AzureClientProps, AzureFunctionTokenProvider } from "@fluidframework/azure-client";
 
 export const diceValueKey = "dice-value-key";
 
